@@ -10,7 +10,14 @@ namespace SnowFallOOPTest
     {
         static void Main(string[] args)
         {
-            
+            Snowflake snowflake = new Snowflake();
+            snowflake.SetX(2);
+            Console.WriteLine(snowflake.GetX());
+
+            snowflake.X = 3;
+            Console.WriteLine(snowflake.X);
+
+            Console.ReadKey();
         }
     }
 }
